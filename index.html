@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لعبة شطرنج ضد الروبوت</title>
+    
+    <!-- استدعاء مكتبة تنسيق لوحة الشطرنج الخارجية -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+    
+    <!-- ربط ملف الـ CSS الخاص بك -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>العب شطرنج ضد الروبوت</h1>
+    
+    <!-- شريط حالة اللعبة -->
+    <div id="status">دورك الآن (اللون الأبيض)</div>
+    
+    <!-- المكان الذي ستظهر فيه لوحة الشطرنج -->
+    <div id="myBoard"></div>
+
+    <!-- أزرار التحكم -->
+    <div class="btn-container">
+        <button id="restartBtn">إعادة تشغيل اللعبة</button>
+    </div>
+
+    <!-- استدعاء المكتبات البرمجية المطلوبة للتشغيل (JQuery, Chess.js, Chessboard.js) -->
+    <script src="https://jquery.com"></script>
+    <script src="https://cloudflare.com"></script>
+    <script src="https://cloudflare.com"></script>
+
+    <!-- ربط ملف الجافا سكريبت الخاص بك -->
+    <script src="script.js"></script>
+</body>
+</html>
